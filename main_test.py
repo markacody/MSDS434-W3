@@ -1,5 +1,5 @@
 
-import main_test
+import main
 
 # Test function
 
