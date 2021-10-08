@@ -1,6 +1,8 @@
 
 import main_test
 
+# Test function
+
 
 def test_index():
     main.app.testing = True
