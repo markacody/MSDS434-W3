@@ -10,4 +10,4 @@ def test_index():
 
     r = client.get('/')
     assert r.status_code == 200
-    assert '{"greeting":"hello world"}' in r.data.decode('urt-8')
+    assert '{"greeting":"hello world"}' in r.data.decode('utf-8')
